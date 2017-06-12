@@ -10,7 +10,7 @@ function Vacation2(place, date, landmark, food) {
 $(document).ready(function() {
   $("form#new-place").submit(function(event) {
     event.preventDefault();
-
+    debugger;
     var inputtedNewPlace = $("input#newPlace").val();
     var inputtedNewDate = $("input#newDate").val();
     var inputtedNewLandmark = $("input#newLandmark").val();
