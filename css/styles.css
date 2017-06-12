@@ -1,12 +1,12 @@
-#show-contact {
+#show-location {
   display: none;
 }
 
-.contact {
+.bananas {
   cursor: pointer;
   color: #0088cc;
 }
 
-.contact:hover {
+.bananas:hover {
   text-decoration: underline;
 }
