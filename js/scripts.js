@@ -7,7 +7,7 @@ function Vacation2(place, date, landmark, food) {
 }
 
 Vacation2.prototype.experiment = function() {
-  return this.placeName + " " + this.dateName;
+  return this.placeName;
 }
 
 // user interface logic
@@ -22,7 +22,7 @@ $(document).ready(function() {
 
     var newVacation = new Vacation2(inputtedNewPlace, inputtedNewDate, inputtedNewLandmark, inputtedNewFood);
 
-    $("ul#location").append("<li><span class='bananas'>" +  newVacation.experiment() + "</span></li>");
+    $("ul#location").append("<li><span class='bananas'>" + newVacation.experiment() + "</span></li>");
 
     $(".bananas").last().click(function() {
     $("#show-location").show();
